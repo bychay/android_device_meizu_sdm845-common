@@ -1,0 +1,5 @@
+# DPI
+ro.sf.lcd_density=400
+
+# Shutdown
+ro.build.shutdown_timeout=2

@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "android_hardware_meizu",
+    "target_path": "hardware/meizu"
+  },
+  {
+    "repository": "android_kernel_meizu_sdm845",
+    "target_path": "kernel/meizu/sdm845"
+  }
+]

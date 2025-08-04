@@ -1,0 +1,14 @@
+libqti-perfd-client.so
+libnpu.so
+libadsprpc.so
+libcdsprpc.so
+libsdsprpc.so
+libfastcvopt.so
+liblistensoundmodel2.so
+libOpenCL.so
+libprotobuf-cpp-full.so
+libprotobuf-cpp-lite.so
+libmpbase.so
+unnhal-acc-adreno.so
+unnhal-acc-common.so
+unnhal-acc-hvx.so
