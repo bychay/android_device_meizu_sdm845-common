@@ -128,74 +128,9 @@ on post-fs-data
     chmod 0660 /data/vendor/display/dsi_sofef00m_amoled_cmd_display.xml
 
     # Display Setting temperature effect flyme
-    copy /vendor/etc/qdcm_calib_data_samsung_sofef00m_amoled_fhd+_cmd_mode_dsi_panel.xml /data/vendor/display/qdcm_calib_data_samsung_sofef00m_amoled_fhd+_cmd_mode_dsi_panel.xml
-    chown system system /data/vendor/display/qdcm_calib_data_samsung_sofef00m_amoled_fhd+_cmd_mode_dsi_panel.xml
-    chmod 0660 /data/vendor/display/qdcm_calib_data_samsung_sofef00m_amoled_fhd+_cmd_mode_dsi_panel.xml
-
-    # Display Setting temperature effect a11+
-    copy /vendor/etc/qdcm_calib_data_Dual_nt35597_cmd_mode_dsi_truly_panel_without_DSC.xml /data/vendor/display/qdcm_calib_data_Dual_nt35597_cmd_mode_dsi_truly_panel_without_DSC.xml
-    chown system system /data/vendor/display/qdcm_calib_data_Dual_nt35597_cmd_mode_dsi_truly_panel_without_DSC.xml
-    chmod 0660 /data/vendor/display/qdcm_calib_data_Dual_nt35597_cmd_mode_dsi_truly_panel_without_DSC.xml
-
-    copy /vendor/etc/qdcm_calib_data_Dual_nt35597_video_mode_dsi_truly_panel_without_DSC.xml /data/vendor/display/qdcm_calib_data_Dual_nt35597_video_mode_dsi_truly_panel_without_DSC.xml
-    chown system system /data/vendor/display/qdcm_calib_data_Dual_nt35597_video_mode_dsi_truly_panel_without_DSC.xml
-    chmod 0660 /data/vendor/display/qdcm_calib_data_Dual_nt35597_video_mode_dsi_truly_panel_without_DSC.xml
-
-    copy /vendor/etc/qdcm_calib_data_Dual_nt36850_cmd_mode_dsi_truly_panel_without_DSC.xml /data/vendor/display/qdcm_calib_data_Dual_nt36850_cmd_mode_dsi_truly_panel_without_DSC.xml
-    chown system system /data/vendor/display/qdcm_calib_data_Dual_nt36850_cmd_mode_dsi_truly_panel_without_DSC.xml
-    chmod 0660 /data/vendor/display/qdcm_calib_data_Dual_nt36850_cmd_mode_dsi_truly_panel_without_DSC.xml
-
-    copy /vendor/etc/qdcm_calib_data_hx8399_video_mode_dsi_truly_panel.xml /data/vendor/display/qdcm_calib_data_hx8399_video_mode_dsi_truly_panel.xml
-    chown system system /data/vendor/display/qdcm_calib_data_hx8399_video_mode_dsi_truly_panel.xml
-    chmod 0660 /data/vendor/display/qdcm_calib_data_hx8399_video_mode_dsi_truly_panel.xml
-
-    copy /vendor/etc/qdcm_calib_data_nt35597_cmd_mode_dsi_truly_panel_with_DSC.xml /data/vendor/display/qdcm_calib_data_nt35597_cmd_mode_dsi_truly_panel_with_DSC.xml
-    chown system system /data/vendor/display/qdcm_calib_data_nt35597_cmd_mode_dsi_truly_panel_with_DSC.xml
-    chmod 0660 /data/vendor/display/qdcm_calib_data_nt35597_cmd_mode_dsi_truly_panel_with_DSC.xml
-
-    copy /vendor/etc/qdcm_calib_data_nt35597_video_mode_dsi_truly_panel_with_DSC.xml /data/vendor/display/qdcm_calib_data_nt35597_video_mode_dsi_truly_panel_with_DSC.xml
-    chown system system /data/vendor/display/qdcm_calib_data_nt35597_video_mode_dsi_truly_panel_with_DSC.xml
-    chmod 0660 /data/vendor/display/qdcm_calib_data_nt35597_video_mode_dsi_truly_panel_with_DSC.xml
-
-    copy /vendor/etc/qdcm_calib_data_nt35695b_truly_fhd_command_mode_dsi_panel.xml /data/vendor/display/qdcm_calib_data_nt35695b_truly_fhd_command_mode_dsi_panel.xml
-    chown system system /data/vendor/display/qdcm_calib_data_nt35695b_truly_fhd_command_mode_dsi_panel.xml
-    chmod 0660 /data/vendor/display/qdcm_calib_data_nt35695b_truly_fhd_command_mode_dsi_panel.xml
-
-    copy /vendor/etc/qdcm_calib_data_nt36525_video_mode_dsi_truly_panel.xml /data/vendor/display/qdcm_calib_data_nt36525_video_mode_dsi_truly_panel.xml
-    chown system system /data/vendor/display/qdcm_calib_data_nt36525_video_mode_dsi_truly_panel.xml
-    chmod 0660 /data/vendor/display/qdcm_calib_data_nt36525_video_mode_dsi_truly_panel.xml
-
-    copy /vendor/etc/qdcm_calib_data_Sharp_1080p_cmd_mode_dsc_dsi_panel.xml /data/vendor/display/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
-    chown system system /data/vendor/display/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
-    chmod 0660 /data/vendor/display/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
-
-    copy /vendor/etc/qdcm_calib_data_Sharp_1080p_video_mode_dsc_dsi_panel.xml /data/vendor/display/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml
-    chown system system /data/vendor/display/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml
-    chmod 0660 /data/vendor/display/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml
-
-    copy /vendor/etc/qdcm_calib_data_Sharp_2k_cmd_mode_dsc_dsi_panel.xml /data/vendor/display/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
-    chown system system /data/vendor/display/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
-    chmod 0660 /data/vendor/display/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
-
-    copy /vendor/etc/qdcm_calib_data_Sharp_2k_video_mode_dsc_dsi_panel.xml /data/vendor/display/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml
-    chown system system /data/vendor/display/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml
-    chmod 0660 /data/vendor/display/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml
-
-    copy /vendor/etc/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml /data/vendor/display/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
-    chown system system /data/vendor/display/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
-    chmod 0660 /data/vendor/display/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
-
-    copy /vendor/etc/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml /data/vendor/display/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml
-    chown system system /data/vendor/display/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml
-    chmod 0660 /data/vendor/display/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml
-
-    copy /vendor/etc/qdcm_calib_data_Sharp_fhd_cmd_mode_dsc_dsi_panel.xml /data/vendor/display/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
-    chown system system /data/vendor/display/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
-    chmod 0660 /data/vendor/display/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
-
-    copy /vendor/etc/qdcm_calib_data_Sharp_fhd_video_mode_dsc_dsi_panel.xml /data/vendor/display/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml
-    chown system system /data/vendor/display/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml
-    chmod 0660 /data/vendor/display/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml
+    copy /vendor/etc/qdcm_calib_data_sofef00m_amoled_fhd+_cmd_mode_dsi_panel.xml /data/vendor/display/qdcm_calib_data_sofef00m_amoled_fhd+_cmd_mode_dsi_panel.xml
+    chown system system /data/vendor/display/qdcm_calib_data_sofef00m_amoled_fhd+_cmd_mode_dsi_panel.xml
+    chmod 0660 /data/vendor/display/qdcm_calib_data_sofef00m_amoled_fhd+_cmd_mode_dsi_panel.xml
 
     # SRS
     chown system system /sys/srs/srs_enable
