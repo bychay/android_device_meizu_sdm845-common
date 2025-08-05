@@ -123,10 +123,6 @@ on post-fs-data
     chown system system /sys/class/meizu/lcm/display/lut
     chmod 0660 /sys/class/meizu/lcm/display/lut
 
-    copy /vendor/etc/dsi_sofef00m_amoled_cmd_display.xml /data/vendor/display/dsi_sofef00m_amoled_cmd_display.xml
-    chown system system /data/vendor/display/dsi_sofef00m_amoled_cmd_display.xml
-    chmod 0660 /data/vendor/display/dsi_sofef00m_amoled_cmd_display.xml
-
     # Display Setting temperature effect flyme
     copy /vendor/etc/qdcm_calib_data_sofef00m_amoled_fhd+_cmd_mode_dsi_panel.xml /data/vendor/display/qdcm_calib_data_sofef00m_amoled_fhd+_cmd_mode_dsi_panel.xml
     chown system system /data/vendor/display/qdcm_calib_data_sofef00m_amoled_fhd+_cmd_mode_dsi_panel.xml
